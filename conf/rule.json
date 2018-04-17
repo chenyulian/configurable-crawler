@@ -1,0 +1,9 @@
+{
+  "name":"quotes",
+  "rules":[
+    {"field":"text","xpathRule":"//div[@class='quote']/span[@class='text']/text()"},
+    {"field":"tags","xpathRule":"//div[@class='quote']/div[@class='tags']/a/text()"}
+  ],
+  "next_page":"//li[@class='next']/a/@href",
+  "link_path":""
+}
